@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numerals Converter</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <h1>Roman Numerals Converter</h1>
+    <h2>By: Derek Slauson</h2>
+
+    <!-- Convert number to roman -->
+    <div class="converter">
+        <h3>Number to Roman Numerals</h3>
+        <label for="number">Number</label>
+        <input type="text" id="number" placeholder="Number">
+
+        <input type="button" value="Convert to Roman" id="convertToRomanButton">
+        <div id="result">1990 = MCMXC</div>
+    </div>
+
+    <!-- Convert roman to number -->
+    <div class="converter">
+        <h3>Roman Numerals to Number</h3>
+
+        <label for="romanNumerals">Roman Numerals</label>
+        <input type="text" id="romanNumerals" placeholder="Roman Numerals">
+
+
+        <input type="button" value="Convert to Number" id="convertToNumberButton">
+        <div id="resultToNumber">MCMXC = 1990</div>
+    </div>
+    <p>Converter only works up to and including 4,000</p>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

@@ -46,6 +46,10 @@ label {
     display: block;
 }
 
+input {
+    width: 80%;
+}
+
 @media screen and (min-width: 900px) {
     .converter {
         display: inline-block;
@@ -54,6 +58,9 @@ label {
 }
 
 @media screen and (max-width: 900px) {
+    body {
+        font-size: .9em;
+    }
     .converter {
         display: block;
         width: 50%;
